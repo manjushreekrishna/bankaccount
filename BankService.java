@@ -33,15 +33,15 @@ public class BankService {
     // The main entry point
     public static void main(String[] args) {
         // Create an instance of the BankAccount class
-        BankAccount acc = new BankAccount(8000);
+        BankAccount acc = new BankAccount(7000);
         
         System.out.println("Initial Balance: " + acc.getBalance());
 
         // Perform operations
-        acc.deposit(2000);
+        acc.deposit(4000);
         System.out.println("Balance after deposit of 500: " + acc.getBalance());
 
-        acc.withdraw(300);
+        acc.withdraw(200);
         System.out.println("Balance after withdrawal of 300: " + acc.getBalance());
 
         // Print final result
